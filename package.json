@@ -1,0 +1,25 @@
+{
+  "name": "topupmang",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "adb reverse tcp:8081 tcp:8081 && node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "react": "^0.14.8",
+    "react-native": "^0.23.0-rc1",
+    "react-native-gifted-form": "0.0.6",
+    "react-native-loading-spinner-overlay": "0.0.8",
+    "react-native-material-design": "^0.3.3",
+    "react-native-progress": "^2.2.2",
+    "react-native-swiper": "^1.4.3",
+    "react-native-vector-icons": "^1.3.3",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "tcomb-form-native": "^0.4.0"
+  },
+  "devDependencies": {
+    "react-transform-hmr": "^1.0.4"
+  }
+}
